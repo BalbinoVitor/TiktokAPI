@@ -79,7 +79,7 @@ Essas funções usam comandos diretos no DOM da interface web (via Selenium).
 ### 🗓 `posts.py`
 
 * ANALISAR
-Gerencia lógica de postagem:
+* Gerencia lógica de postagem:
 
 * Validação de arquivos
 * Registro de uploads
@@ -90,6 +90,5 @@ Gerencia lógica de postagem:
 
 ## 📀 Requisitos básicos
 
-* Python 3+.11
-* Playwright ([https://playwright.dev/python/](https://playwright.dev/python/))
+* Python 3.11+
 * `pip install -r requirements.txt`
