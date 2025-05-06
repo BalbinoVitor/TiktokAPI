@@ -11,7 +11,7 @@ load_dotenv(os.path.join(base_dir, "App", "config", ".env"))
 
 app = FastAPI()
 
-HOST = os.getenv("HOST","127.0.0.1")
+HOST = os.getenv("HOST","0.0.0.0")
 PORT = os.getenv("PORT","8000")
 
 app.include_router(auth_api.router)
