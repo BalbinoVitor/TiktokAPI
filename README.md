@@ -14,6 +14,8 @@ service/
 ├── extraction.py     # Coleta de dados (vídeos, perfis, estatísticas)
 ├── posts.py          # Lógica de postagem e agendamento
 ├── sessions.py       # Gerenciamento de sessões e cookies
+├── paths.py          # Gerenciamento das paths do selenium
+├── monitor.py        # Coleta dados da sua conta e de outras pessoas 
 └── upload.py         # Upload de vídeos
 ```
 
