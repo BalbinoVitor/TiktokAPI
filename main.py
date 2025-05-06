@@ -41,7 +41,7 @@ async def log_requests(request, call_next):
     elif response.status_code == 500:
         logger.error(f"Request: {request.method} {request.url} {response.status_code}")
     else:
-        logger.info(f"Request: {request.method} {request.url} {response.status_code}")
+        logger.warning(f"Request: {request.method} {request.url} {response.status_code}")
 
     return response
 
